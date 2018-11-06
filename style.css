@@ -1,190 +1,39 @@
-body {
-    background-color: #fffee8;
-}
+<!doctype html>
+<html lang='en-US'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0'>
 
-.face {
-     position: absolute;
-     width: 200px;
-     height: 300px;
-     top: 200px;
-     left: 550px;
-     background-color: #e2bf99;
-     border-radius: 100px;
+    <link href="style.css" rel="stylesheet">
 
- }
+    <title></title>
+</head>
+<body>
 
-.hat-top {
-    position: absolute;
-    top: -80px;
-    width: 200px;
-    height: 130px;
-    background-color: #211a1b;
-    border-radius: 50% 50% 50px 50px;
-}
 
-.hat {
-    position: absolute;
-    left: -10px;
-    width: 220px;
-    height: 50px;
-    background-color: #211a1b;
-    border-radius: 50px;
-}
+<div class="face">
 
-.eye-left {
-    position: absolute;
-    top: 100px;
-    left: 15px;
-    width: 50px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50px;
-    animation: eyes 2s infinite alternate;
-}
 
-.eye-right {
-    position: absolute;
-    top: 100px;
-    left: 135px;
-    width: 50px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50px;
-    animation: eyes 2s infinite alternate;
-}
+    <div class="ear-left"></div>
+    <div class="ear-right"></div>
+    <div class="hat-top"></div>
+    <div class="hat"></div>
+    <div class="eye-left"></div>
+    <div class="eye-right"></div>
+    <div class="brow-left"></div>
+    <div class="brow-right"></div>
+    <div class="pupil-left"></div>
+    <div class="pupil-right"></div>
+    <div class="bridge"></div>
+    <div class="nose"></div>
+    <div class="lip-top"></div>
+    <div class="lip-bottom"></div>
 
-.pupil-left {
-    position: absolute;
-    top: 105px;
-    left: 30px;
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    border-radius: 50%;
-}
 
-.pupil-right {
-    position: absolute;
-    top: 105px;
-    left: 150px;
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    border-radius: 50%;
-}
 
-.brow-left {
-    position: absolute;
-    top: 90px;
-    left: 15px;
-    width: 50px;
-    height: 10px;
-    background-color: #634034;
-    border-radius: 50px;
-    animation: brow-left 1s infinite alternate;
-}
 
-.brow-right {
-    position: absolute;
-    top: 90px;
-    left: 135px;
-    width: 50px;
-    height: 10px;
-    background-color: #634034;
-    border-radius: 50px;
-    animation: brow-right 1s infinite alternate;
-}
+</div>
 
-.nose {
-    position: absolute;
-    top: 150px;
-    left: 60px;
-    width: 80px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #c5796d;
-}
-
-.bridge {
-    position: absolute;
-    top: 110px;
-    left: 75px;
-    width: 50px;
-    height: 80px;
-    border-radius: 40%;
-    background-color: #c5796d;
-}
-
-.lip-bottom {
-    position: absolute;
-    left: 50px;
-    width: 100px;
-    height: 20px;
-    border-radius: 45%;
-    background-color: #c08c98;
-    animation: lip .5s alternate infinite;
-}
-
-.lip-top {
-    position: absolute;
-    top: 210px;
-    left: 50px;
-    width: 100px;
-    height: 20px;
-    border-radius: 45%;
-    background-color: #c08c98;
-}
-
-.ear-left {
-    position: absolute;
-    top: 105px;
-    left: -30px;
-    width: 50px;
-    height: 65px;
-    background-color: #c5796d;
-    border-radius: 50%;
-    z-index: -50;
-    animation: ear-left 1s infinite alternate;
-}
-
-.ear-right {
-    position: absolute;
-    top: 105px;
-    left: 180px;
-    width: 50px;
-    height: 65px;
-    background-color: #c5796d;
-    border-radius: 50%;
-    z-index: -50;
-    animation: ear-right 1s infinite alternate;
-}
-
-@keyframes lip {
-     from {top: 225px;}
-     to {top: 235px;}
- }
-
-@keyframes ear-left {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(-30deg)}
-}
-
-@keyframes ear-right {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(30deg)}
-}
-
-@keyframes eyes {
-    from {height:30px; top: 100px}
-    to {height: 20px; top: 105px;}
-}
-
-@keyframes brow-left {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(-15deg)translateX(-2px);}
-}
-
-@keyframes brow-right {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(15deg)translateX(2px);}
-}
+</body>
+</html>
