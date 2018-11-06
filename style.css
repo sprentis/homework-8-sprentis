@@ -1,13 +1,13 @@
 .face {
-    position: absolute;
-    width: 200px;
-    height: 300px;
-    top: 200px;
-    left: 550px;
-    background-color: #e2bf99;
-    border-radius: 100px;
+     position: absolute;
+     width: 200px;
+     height: 300px;
+     top: 200px;
+     left: 550px;
+     background-color: #e2bf99;
+     border-radius: 100px;
 
-}
+ }
 
 .hat-top {
     position: absolute;
@@ -19,13 +19,13 @@
 }
 
 .hat {
-     position: absolute;
-     left: -10px;
-     width: 220px;
-     height: 50px;
-     background-color: #211a1b;
-     border-radius: 50px;
- }
+    position: absolute;
+    left: -10px;
+    width: 220px;
+    height: 50px;
+    background-color: #211a1b;
+    border-radius: 50px;
+}
 
 .eye-left {
     position: absolute;
@@ -35,6 +35,7 @@
     height: 30px;
     background-color: white;
     border-radius: 50px;
+    animation: eyes 2s infinite alternate;
 }
 
 .eye-right {
@@ -45,6 +46,7 @@
     height: 30px;
     background-color: white;
     border-radius: 50px;
+    animation: eyes 2s infinite alternate;
 }
 
 .pupil-left {
@@ -89,12 +91,12 @@
 
 .lip-bottom {
     position: absolute;
-    top: 225px;
     left: 50px;
     width: 100px;
     height: 20px;
     border-radius: 45%;
     background-color: #c08c98;
+    animation: lip 1s alternate infinite;
 }
 
 .lip-top {
@@ -116,6 +118,7 @@
     background-color: #c5796d;
     border-radius: 50%;
     z-index: -50;
+    animation: ear-left 1s infinite alternate;
 }
 
 .ear-right {
@@ -127,4 +130,25 @@
     background-color: #c5796d;
     border-radius: 50%;
     z-index: -50;
+    animation: ear-right 1s infinite alternate;
+}
+
+@keyframes lip {
+     from {top: 225px;}
+     to {top: 235px;}
+ }
+
+@keyframes ear-left {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-30deg)}
+}
+
+@keyframes ear-right {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(30deg)}
+}
+
+@keyframes eyes {
+    from {height:30px; top: 100px}
+    to {height: 20px; top: 105px;}
 }
