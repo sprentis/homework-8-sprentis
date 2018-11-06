@@ -1,7 +1,130 @@
-h1 {
-  color: red;
+.face {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 200px;
+    left: 550px;
+    background-color: #e2bf99;
+    border-radius: 100px;
+
 }
 
-header {
-  color: (40, 80, 140);
+.hat-top {
+    position: absolute;
+    top: -80px;
+    width: 200px;
+    height: 130px;
+    background-color: #211a1b;
+    border-radius: 50% 50% 50px 50px;
+}
+
+.hat {
+     position: absolute;
+     left: -10px;
+     width: 220px;
+     height: 50px;
+     background-color: #211a1b;
+     border-radius: 50px;
+ }
+
+.eye-left {
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.eye-right {
+    position: absolute;
+    top: 100px;
+    left: 135px;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.pupil-left {
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.pupil-right {
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #c5796d;
+}
+
+.bridge {
+    position: absolute;
+    top: 110px;
+    left: 75px;
+    width: 50px;
+    height: 80px;
+    border-radius: 40%;
+    background-color: #c5796d;
+}
+
+.lip-bottom {
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    width: 100px;
+    height: 20px;
+    border-radius: 45%;
+    background-color: #c08c98;
+}
+
+.lip-top {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    width: 100px;
+    height: 20px;
+    border-radius: 45%;
+    background-color: #c08c98;
+}
+
+.ear-left {
+    position: absolute;
+    top: 105px;
+    left: -30px;
+    width: 50px;
+    height: 65px;
+    background-color: #c5796d;
+    border-radius: 50%;
+    z-index: -50;
+}
+
+.ear-right {
+    position: absolute;
+    top: 105px;
+    left: 180px;
+    width: 50px;
+    height: 65px;
+    background-color: #c5796d;
+    border-radius: 50%;
+    z-index: -50;
 }
